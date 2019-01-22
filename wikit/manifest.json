@@ -1,0 +1,20 @@
+{
+    "manifest_version":2,
+    "name": "wikit" ,
+    "version" : "1.0",
+    "description" : "googles the wikit",
+    "icons" :{
+        "128":"iconw128.png",
+        "48":"iconw48.png",
+        "16":"iconw16.png"
+    },
+    "background":{
+        "scripts":["eventpage.js"],
+        "persistent":false
+    },
+    "permissions":[
+        "tabs",
+        "contextMenus"
+    ]
+
+}
